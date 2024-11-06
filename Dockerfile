@@ -17,8 +17,6 @@ EXPOSE 5000
 # Set environment variables for Flask
 ENV FLASK_APP=flask_testing/app.py
 ENV FLASK_RUN_HOST=0.0.0.0
-ENV temp="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"
-
 
 # Run the Flask app
 CMD ["flask", "run"]

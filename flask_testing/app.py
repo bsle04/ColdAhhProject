@@ -16,7 +16,7 @@ def my_python_function():
     return "Hello from Python!"
 
 client = OpenAI(
-  api_key = os.getenv("temp") #get api key from openai page and set as environment variable otherwise this wont work
+  api_key = os.getenv("KEY") #get api key from openai page and set as environment variable otherwise this wont work
 )
 
 # def ask_chat(content):
