@@ -15,25 +15,6 @@ def home():
 def my_python_function():
     return "Hello from Python!"
 
-client = OpenAI(
-  api_key = os.getenv("KEY") #get api key from openai page and set as environment variable otherwise this wont work
-)
-
-# def ask_chat(content):
-#     #content = input("Ask something: ")
-#     client = OpenAI(api_key = os.getenv("OPENAI_API_KEY") #get api key from openai page and set as environment variable otherwise this wont work
-#     )
-#     completion = client.chat.completions.create(
-#         model="gpt-3.5-turbo",
-#         messages=[
-#             {
-#                 "role": "system",
-#                 "content": content,
-#             }
-#         ]
-#     )
-#     return completion.model_dump()['choices'][0]['message']['content']
-
 # Create an endpoint for the button click
 @app.route('/call_function', methods=['GET'])
 def call_function():
