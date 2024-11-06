@@ -1,0 +1,2 @@
+installed wsl + Ubuntu [wsl --install -d Ubuntu --web-download]
+then rebooted
