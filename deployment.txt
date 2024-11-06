@@ -1,2 +1,21 @@
 installed wsl + Ubuntu [wsl --install -d Ubuntu --web-download]
 then rebooted
+installed docker, docker compose
+
+
+to run:
+cd /home/users/ble/ColdAhhProject
+docker build -t your-app-name .
+docker run -p 5000:5000 your-app-name
+
+to pull:
+cd /home/users/ble/ColdAhhProject
+git pull
+
+to push:
+cd /home/users/ble/ColdAhhProject
+git add .
+git commit -m "message"
+git push
+bsle04
+(enter github personal access token instead of password - generate this online at github)
