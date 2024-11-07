@@ -92,6 +92,44 @@ nav .nav-links a:hover {
     margin-bottom: 1rem;
 }
 
+/* New Input Section */
+.input-section {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.input-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.input-section input[type="text"] {
+    padding: 0.8rem;
+    width: 60%;
+    max-width: 400px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-section button {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.input-section button:hover {
+    background-color: #555;
+}
+
 /* Footer */
 footer {
     background-color: #333;
